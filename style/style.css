@@ -1,33 +1,63 @@
-/* Aside styles */
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header & Navigation */
+header {
+  background-color: #333;
+  padding: 1rem 0;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+/* Main content */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+main img {
+  width: 100%;
+  height: auto;
+}
+
+/* Aside */
 aside {
-  width: 300px;
-  margin: 1rem auto;
+  width: 250px;
+  margin: 2rem auto;
   border: 1px solid #ccc;
   padding: 1rem;
   background-color: #f0f0f0;
   color: #333;
 }
 
-/* Aside image */
 aside img {
   width: 200px;
   height: auto;
 }
 
-/* Main image */
-main img {
-  width: 100%;
-  height: auto;
-}
-
-/* Paragraphs */
+/* Paragraph */
 p {
   padding: 0;
 }
 
 /* Footer */
 footer {
-  margin-top: 1rem;
-  border-top: 1px solid #999;
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
   text-align: center;
+  padding: 1rem 0;
+  background-color: #eee;
 }
