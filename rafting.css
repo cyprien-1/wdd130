@@ -1,0 +1,65 @@
+:root {
+  --primary-color: #0077cc;
+  --secondary-color: #ffffff;
+  --accent-color: #ffcc00;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero h1, .hero article {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.hero article img {
+  float: right;
+  width: 100px;
+  margin: 0 0 1rem 1rem;
+}
+
+section img {
+  width: 18%;
+  margin: 1%;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer a img {
+  width: 30px;
+  margin: 0 5px;
+  text-decoration: none;
+}
